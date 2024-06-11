@@ -1,0 +1,76 @@
+############# French navigation ##############
+
+# main menu
+[[main]]
+name = "Accueil"
+pageRef = "/"
+weight = 1
+
+[[main]]
+name = "À propos"
+pageRef = "/about"
+weight = 2
+
+[[main]]
+name = "Blog"
+pageRef = "/blog"
+weight = 3
+
+# [[main]]
+# weight = 4
+# name = "Publications"
+
+# [[main]]
+# parent = "Publications"
+# name = "Methologies"
+# pageRef = "/"
+# weight = 1
+
+[[main]]
+weight = 5
+name = "Outils"
+
+[[main]]
+parent = "Outils"
+name = "EcoLogits"
+url = "https://github.com/genai-impact/ecologits"
+weight = 1
+
+[[main]]
+parent = "Outils"
+name = "Calculator"
+url = "https://huggingface.co/spaces/genai-impact/ecologits-calculator"
+weight = 2
+
+[[main]]
+name = "Contact"
+pageRef = "/contact"
+weight = 6
+
+
+# [[main]]
+# parent = "Pages"
+# name = "Categories"
+# pageRef = "/categories"
+
+
+# footer menu
+[[footer]]
+name = "À propos"
+pageRef = "/about"
+weight = 1
+
+[[footer]]
+name = "Nous contacer"
+pageRef = "/contact"
+weight = 2
+
+# [[footer]]
+# name = "Elements"
+# pageRef = "/elements"
+# weight = 2
+
+# [[footer]]
+# name = "Privacy Policy"
+# pageRef = "/privacy-policy"
+# weight = 3

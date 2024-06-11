@@ -1,0 +1,76 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+pageRef = "/"
+weight = 1
+
+[[main]]
+name = "About"
+pageRef = "/about"
+weight = 2
+
+[[main]]
+name = "Blog"
+pageRef = "/blog"
+weight = 3
+
+# [[main]]
+# weight = 4
+# name = "Publications"
+
+# [[main]]
+# parent = "Tools"
+# name = "Methologies"
+# pageRef = "/"
+# weight = 1
+
+[[main]]
+weight = 5
+name = "Tools"
+
+[[main]]
+parent = "Tools"
+name = "EcoLogits"
+url = "https://github.com/genai-impact/ecologits"
+weight = 1
+
+[[main]]
+parent = "Tools"
+name = "Calculator"
+url = "https://huggingface.co/spaces/genai-impact/ecologits-calculator"
+weight = 2
+
+[[main]]
+name = "Contact"
+pageRef = "/contact"
+weight = 6
+
+
+# [[main]]
+# parent = "Pages"
+# name = "Categories"
+# pageRef = "/categories"
+
+
+# footer menu
+[[footer]]
+name = "About"
+pageRef = "/about"
+weight = 1
+
+[[footer]]
+name = "Contact Us"
+pageRef = "/contact"
+weight = 2
+
+# [[footer]]
+# name = "Elements"
+# pageRef = "/elements"
+# weight = 2
+
+# [[footer]]
+# name = "Privacy Policy"
+# pageRef = "/privacy-policy"
+# weight = 3
