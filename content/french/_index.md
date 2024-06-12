@@ -13,7 +13,7 @@ banner:
 features:
   - title: "Nos activités"
     image: "/images/service-1.png"
-    content: "Nous sommes dédiés à comprendre et à réduire les impacts environnementaux de l'intelligence artificielle générative à travers des recherches rigoureuses, des outils innovants et l'engagement communautaire."
+    content: "Nous nous consacrons à comprendre et à réduire les impacts environnementaux de l'intelligence artificielle générative à travers des recherches rigoureuses, des outils innovants et l'engagement communautaire."
     bulletpoints:
       - "**Méthodologies avancées** inspirées de l'Analyse de Cycle de Vie (ACV)."
       - "**Outils open-source** pour un usage personnel et commercial."
@@ -29,7 +29,7 @@ features:
     content: "L'évolution rapide de l'intelligence artificielle générative transforme de nombreuses industries et aspects de notre quotidien. Si ces avancées offrent certains avantages, elles posent également d'importants défis environnementaux qu'il ne faut pas négliger. Chez GenAI Impact, nous abordons ces problèmes cruciaux pour plusieurs raisons clés :"
     bulletpoints:
       - "**Responsabilité environnementale** : Les modèles GenAI consomment beaucoup d'énergie, lors de l'entraînement et de l'inférence, contribuant aux émissions de gaz à effet de serre."
-      - "**Efficacité des ressources** : Au-delà de l'énergie, les systèmes d'IA générative affectent également l'utilisation des ressources, y compris l'eau et les matériaux."
+      - "**Efficacité des ressources** : Au-delà de la consommation énergie, les systèmes d'IA générative affectent également l'utilisation de nombreuses ressources, y compris l'eau et les matériaux."
       - "**Viabilité future** : Gestion des impacts indirects et des effets rebond de l'implantation mondiale de l'IA générative."
     button:
       enable: false
