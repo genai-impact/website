@@ -54,6 +54,12 @@ weight = 6
 # pageRef = "/categories"
 
 
+[[main_extra]]
+name = "Nous rejoindre"
+pageRef = "/contact"
+weight = 1
+
+
 # footer menu
 [[footer]]
 name = "À propos"

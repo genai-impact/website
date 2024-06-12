@@ -125,16 +125,21 @@
       {{ end }}
 
       {{ partial "components/language-switcher" (dict "Context" . "Class" "mr-5 pl-2 py-1  rounded") }}
-
-
-      <!-- navigation btn -->
-      {{ if site.Params.navigation_button.enable }}
-        <a
-          href="{{ site.Params.navigation_button.link | relLangURL }}"
-          class="btn btn-outline-primary btn-sm hidden lg:inline-block">
-          {{ site.Params.navigation_button.label }}
-        </a>
-      {{ end }}
+        
+      <!-- extra navigation btn -->
+      {{ range site.Menus.main_extra }}
+      <a
+        href="{{- if findRE `^#` .URL -}}
+          {{- if not $.IsHome -}}
+            {{- site.Home.RelPermalink -}}
+          {{- end }}{{- .URL -}}
+        {{- else -}}
+          {{- .URL | relLangURL -}}
+        {{- end -}}"
+        class="btn btn-outline-primary btn-sm hidden lg:inline-block">
+        {{ .Name }}
+      </a>
+      {{ end }}      
     </div>
   </nav>
 </header>
