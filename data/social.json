@@ -9,6 +9,11 @@
       "name": "github",
       "icon": "fab fa-github",
       "link": "https://github.com/genai-impact/ecologits"
+    },
+    {
+      "name": "hugging face",
+      "icon": "fa-regular fa-envelope",
+      "link": "mailto:genai.impact.org@gmail.com"
     }
   ]
 }
