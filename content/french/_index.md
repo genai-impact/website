@@ -6,8 +6,8 @@ banner:
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Nous rejoindre"
-    link: "/contact"
+    label: "Découvrez EcoLogits"
+    link: "https://ecologits.ai/"
 
 # Features
 features:
