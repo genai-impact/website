@@ -19,14 +19,14 @@ theme_default = "system" # available options [light/dark/system]
 # Main Sections
 mainSections = ["blog"]
 # contact form action
-contact_form_action = "https://airform.io/contact.genai.impact.org.5m68c@simplelogin.com" # contact form works with [https://airform.io/] or [https://formspree.io]
+contact_form_action = "https://airform.io/contact@genai-impact.org" # contact form works with [https://airform.io/] or [https://formspree.io]
 # google tag manager, see https://developers.google.com/tag-manager/
 google_tag_manager = "" # example: G-XXXXXXXXXX
 google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = "Copyright © 2024 GenAI Impact<br>Contact us: <a href=\"mailto:genai.impact.org@gmail.com\">genai.impact.org@gmail.com</a><br>Template by [Zeon Studio](https://zeon.studio) - Illustrations by [Storyset](https://storyset.com/)"
+copyright = "Copyright © 2024 GenAI Impact<br>Template by [Zeon Studio](https://zeon.studio) - Illustrations by [Storyset](https://storyset.com/)"
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
