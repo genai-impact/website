@@ -47,4 +47,17 @@ features:
       enable: true
       label: "Découvrir sur GitHub"
       link: "https://github.com/genai-impact/ecologits"
+
+  - title: "EcoLogits Calculator"
+    image: "/images/service-4.png"
+    content: "EcoLogits Calculator est une application web pédagogique conçue pour estimer les impacts environnementaux des exemples de prompts LLM pour de nombreux modèles et fournisseurs différents."
+    bulletpoints:
+      - "Choisissez votre **fournisseur**, **modèle**, **prompt** et obtenez les impacts environnementaux."
+      - "Apprenez-en davantage sur les **équivalents en énergie ou en émissions de GES** de votre utilisation de LLM."
+      - "Allez plus loin dans la modélisation et adaptez-la à votre cas d'usage avec l'onglet **mode expert**."
+      - "Basé sur la librairie Python open-source **EcoLogits**."
+    button:
+      enable: true
+      label: "Try It Now"
+      link: "https://huggingface.co/spaces/genai-impact/ecologits-calculator"
 ---
