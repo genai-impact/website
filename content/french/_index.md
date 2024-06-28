@@ -58,6 +58,6 @@ features:
       - "Basé sur la librairie Python open-source **EcoLogits**."
     button:
       enable: true
-      label: "Try It Now"
+      label: "Découvrir le calculateur"
       link: "https://huggingface.co/spaces/genai-impact/ecologits-calculator"
 ---
