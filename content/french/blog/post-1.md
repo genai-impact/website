@@ -5,7 +5,7 @@ description: ""
 date: 2024-04-30T08:00:00Z
 image: "/images/content/post_1/hero.png"
 categories: ["Impacts Environnementaux", "Développement GenAI Impact"]
-author: "James Martin"
+author: "GenAI Impact"
 tags: ["IA Générative", "EcoLogits"]
 draft: false
 ---
