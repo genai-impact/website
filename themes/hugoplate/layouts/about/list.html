@@ -2,10 +2,32 @@
   <section class="section-sm">
     <div class="container">
       <div class="row justify-center">
-        <div class="md:col-10 lg:col-7 text-center">
+        <div class="md:col-10 lg:col-7">
           {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "mx-auto mb-6" "Size" "200x200") }}
           <h2 class="h3 mb-6">{{ .Title }}</h2>
           <div class="content">{{ .Content }}</div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-center">
+        <div class="md:col-10 lg:col-7">
+          <h2 class="h3 mb-6">{{ .Params.partners_title }}</h2>
+            {{ range $i, $e:= .Params.partners }}
+              <div class="row mb-6">
+                <div class="md:col-3 text-center sm:col-12 mb-6">
+                  <img src="{{ .image }}" alt="{{ .name }}" style="max-height: 100px; margin: auto;">
+                </div>
+                <div class="md:col-9">
+                  <h4 class="mb-3">{{ .name }}</h4>
+                  <p>{{ .description }}</p>
+                  <p>
+                    <i class="fa-solid fa-link"></i>
+                    <a href="{{ .website_url }}" style="text-decoration: underline;">{{ .website_name }}</a>
+                </p>
+                </div>
+              </div>
+            {{ end }}
         </div>
       </div>
     </div>
