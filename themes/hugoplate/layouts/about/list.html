@@ -1,6 +1,6 @@
 {{ define "main" }}
   <section class="section-sm">
-    <div class="container">
+    <div class="container mb-3">
       <div class="row justify-center">
         <div class="md:col-10 lg:col-7">
           {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "mx-auto mb-6" "Size" "200x200") }}
@@ -9,7 +9,29 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container mb-3">
+      <div class="row justify-center">
+        <div class="md:col-10 lg:col-7">
+          <h2 class="h3 mb-3">{{ .Params.people_title }}</h2>
+        </div>
+      </div>
+      <div class="row justify-center">
+        {{ range $i, $e:= .Params.people }}
+          <div class="lg:col-2 md:col-4">
+            <div class="content" style="text-align: center;">
+              {{ partial "image" (dict "Src" .image "Alt" .name "Size" "150x150" "Class" "rounded") }}
+              <br>
+              <a href="{{ .link }}" style="font-weight: bold;">
+                {{ .name }}
+              </a>
+              <br>
+              <i>{{ .role }}</i>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+    <div class="container mt-6 mb-3">
       <div class="row justify-center">
         <div class="md:col-10 lg:col-7">
           <h2 class="h3 mb-6">{{ .Params.partners_title }}</h2>

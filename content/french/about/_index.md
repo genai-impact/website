@@ -5,6 +5,29 @@ description: "About page"
 image: "/images/avatar.png"
 draft: false
 
+people_title: Notre équipe
+people:
+  - name: Samuel Rincé
+    role: President & Co-Fondateur
+    image: "/images/people/samuel_rince.jpg"
+    link: https://www.linkedin.com/in/samuel-rince/
+  - name: Caroline Jean-Pierre
+    role: Vice-Présidente & Co-Fondatrice
+    image: "/images/people/caroline_jean-pierre.jpg"
+    link: https://www.linkedin.com/in/caroline-jean-pierre/
+  - name: Claire Saignol
+    role: Secrétaire Général
+    image: "/images/people/claire_saignol.jpg"
+    link: https://www.linkedin.com/in/claire-saignol/
+  - name: Théo Alves Da Costa
+    role: Administrateur
+    image: "/images/people/theo_alves-da-costa.jpg"
+    link: https://www.linkedin.com/in/th%C3%A9o-alves-da-costa-09397a82/
+  - name: Jacopo Chevallard
+    role: Administrateur
+    image: "/images/people/jacopo_chevallard.jpg"
+    link: https://www.linkedin.com/in/jacopo-chevallard/
+
 partners_title: Nos partenaires
 partners:
   - name: Data For Good
