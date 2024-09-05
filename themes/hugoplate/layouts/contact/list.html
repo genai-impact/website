@@ -1,9 +1,66 @@
 {{ define "main" }}
   {{ partial "page-header" . }}
 
-  {{ with .Params.form }}
-  <section class="section-sm">
+  <section class="section-sm pb-0 pt-6">
     <div class="container">
+      <div class="row">
+        <div class="md:col-10 lg:col-6 mx-auto">
+          <div class="content">
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-sm pb-0 pt-6">
+    <div class="container">
+      <div class="row">
+        <div class="md:col-12 lg:col-10 xl:col-8 mx-auto">
+          <div class="row">
+            {{ with .Params.member_card }}
+            <div class="md:col-6">
+              <div class="content rounded-lg bg-theme-light p-3 mb-3">
+                <div class="mb-6 text-lg" style="font-weight: bold;">{{ .title }}</div>
+                <div class="mb-6">{{ .description }}</div>
+                <div style="text-align: center;">
+                  <a class="btn btn-primary" href="{{ .button_link }}" target="_blank" rel="noopener">
+                    {{ .button_text }} <i class="fa-solid fa-handshake"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            {{ end }}
+            {{ with .Params.support_card }}
+            <div class="md:col-6">
+              <div class="content rounded-lg p-3 mb-3" style="background-color: #0B3B36;">
+                <div class="mb-6 text-lg" style="font-weight: bold; color: #fff;">{{ .title }}</div>
+                <div class="mb-6" style="color: #fff;">{{ .description }}</div>
+                <div style="text-align: center;">
+                  <a class="btn btn-primary" href="{{ .button_link }}" target="_blank" rel="noopener">
+                    {{ .button_text }} <i class="fa-solid fa-heart"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{ with .Params.form }}
+  <section class="section-sm pt-6">
+    <div class="container">
+      <div class="row">
+        <div class="md:col-10 lg:col-6 mx-auto">
+          <div class="content">
+            <h3>{{ .title }}</h3>
+            <p>{{ .subtitle }}</p>
+          </div>
+        </div>
+      </div>
       <div class="row">
         <div class="md:col-10 lg:col-6 mx-auto">
           <form action="{{ site.Params.contact_form_action }}" method="POST">
