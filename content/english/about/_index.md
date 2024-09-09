@@ -1,7 +1,7 @@
 ---
 title: "GenAI Impact"
 meta_title: "About"
-description: "About page"
+description: "About the GenAI Impact non-profit."
 image: "/images/avatar.png"
 draft: false
 
