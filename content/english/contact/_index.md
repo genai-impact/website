@@ -8,13 +8,13 @@ member_card:
   title: "Become an active member"
   description: "Engage actively to the development of the organization. Open to anyone willing to give us some time and skills."
   button_text: "Join us"
-  button_link: ""
+  button_link: "https://tally.so/r/mRRAW4"
 
 support_card:
   title: "Support our work"
   description: "Contribute to our mission by providing financial support. Your donations enable us to advance our research and development."
   button_text: "Support us"
-  button_link: ""
+  button_link: "https://tally.so/r/wvLePd"
 
 form:
   title: "Contact form"
