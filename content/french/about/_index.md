@@ -27,6 +27,8 @@ people:
     role: Administrateur
     image: "/images/people/jacopo_chevallard.jpg"
     link: https://www.linkedin.com/in/jacopo-chevallard/
+people_list_text: Voir tous les membres
+people_list_url: https://genai-impact.notion.site/Trombinoscope-5bf3d5c819c643b498b3b363223f7add
 
 partners_title: Nos partenaires
 partners:

@@ -17,7 +17,7 @@
       </div>
       <div class="row justify-center">
         {{ range $i, $e:= .Params.people }}
-          <div class="lg:col-2 md:col-4">
+          <div class="lg:col-2 md:col-4 mb-3">
             <div class="content" style="text-align: center;">
               {{ partial "image" (dict "Src" .image "Alt" .name "Size" "150x150" "Class" "rounded") }}
               <br>
@@ -29,6 +29,11 @@
             </div>
           </div>
         {{ end }}
+      </div>
+      <div class="row justify-center">
+        <div class="md:col-10 lg:col-7 text-center mb-3">
+          <p><a href="{{ .Params.people_list_url }}" class="member-link">{{ .Params.people_list_text }} <i class="fa-solid fa-arrow-right"></i></a></p>
+        </div>
       </div>
     </div>
     <div class="container mt-6 mb-3">

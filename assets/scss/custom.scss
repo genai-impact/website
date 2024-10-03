@@ -1,1 +1,21 @@
-// Add your own custom styles here
+// View all member button
+
+.member-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.member-link i {
+    margin-left: 4px;
+    transition: transform 0.3s ease;
+}
+
+.member-link:hover {
+    color: #649618;
+}
+
+.member-link:hover i {
+    transform: translateX(5px);
+}
