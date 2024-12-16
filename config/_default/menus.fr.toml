@@ -67,7 +67,7 @@ pageRef = "/about"
 weight = 1
 
 [[footer]]
-name = "Nous contacer"
+name = "Nous contacter"
 pageRef = "/contact"
 weight = 2
 
