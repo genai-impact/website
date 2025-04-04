@@ -36,7 +36,26 @@ partners:
     image: https://dataforgood.fr/img/logo-dfg-new2.png
     description: Data For Good est une association qui mobilise l'expertise de juniors et de professionnels de l'IT pour soutenir des projets à impact social et environnemental. Le projet GenAI Impact a été initialement lancé lors de leur 12ème saison en 2024, et nous continuons de collaborer étroitement.
     website_name: dataforgood.fr
-    website_url: https://dataforgood.fr/ 
+    website_url: https://dataforgood.fr/
+
+partners_sections:
+  - title: "Nos partenaires financiers"
+    partners:
+      - name: "Resilio"
+        image: "https://www.resilio-solutions.com/files/others/resilio-header.svg"
+        website_url: "https://www.resilio-solutions.com/"
+
+  - title: "Nos partenaires associatifs"
+    partners:
+      - name: "Data For Good"
+        image: "https://dataforgood.fr/img/logo-dfg-new2.png"
+        website_url: "https://dataforgood.fr/"
+      - name: "Boavizta"
+        image: "https://boavizta.org/media/site/154b671737-1701710233/logo_color.svg"
+        website_url: "https://boavizta.org/"
+      - name: "Planet Tech'Care"
+        image: "https://planet-techcare.green/wp-content/uploads/2020/09/logo.svg"
+        website_url: "https://planet-techcare.green/partenaires/"
 ---
 
 

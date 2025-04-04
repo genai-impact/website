@@ -30,13 +30,24 @@ people:
 people_list_text: View all our members
 people_list_url: https://genai-impact.notion.site/Trombinoscope-5bf3d5c819c643b498b3b363223f7add
 
-partners_title: Our partners
-partners:
-  - name: Data For Good
-    image: https://dataforgood.fr/img/logo-dfg-new2.png
-    description: Data For Good is a French non-profit organization that leverages the expertise of tech juniors and professionals to support projects with social and environmental impacts. The GenAI Impact project was originally bootstrapped during their Season 12 in 2024, and we continue to collaborate closely.
-    website_name: dataforgood.fr
-    website_url: https://dataforgood.fr/ 
+partners_sections:
+  - title: "Our financial partners"
+    partners:
+      - name: "Resilio"
+        image: "https://www.resilio-solutions.com/files/others/resilio-header.svg"
+        website_url: "https://www.resilio-solutions.com/en"
+
+  - title: "Our non-profit partners"
+    partners:
+      - name: "Data For Good"
+        image: "https://dataforgood.fr/img/logo-dfg-new2.png"
+        website_url: "https://dataforgood.fr/"
+      - name: "Boavizta"
+        image: "https://boavizta.org/media/site/154b671737-1701710233/logo_color.svg"
+        website_url: "https://boavizta.org/en"
+      - name: "Planet Tech'Care"
+        image: "https://planet-techcare.green/wp-content/uploads/2020/09/logo.svg"
+        website_url: "https://planet-techcare.green/en/partenaires/"
 ---
 
 
