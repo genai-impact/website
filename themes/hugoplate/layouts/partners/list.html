@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <section class="section-sm">
+    <div class="container mt-6 mb-3">
+      <div class="row justify-center">
+        <div class="md:col-10 lg:col-7">
+          {{ range .Params.partners_sections }}
+            <div class="mb-12">
+              <h2 class="h3 mb-3">{{ .title }}</h2>
+              <div class="row mb-6">
+                <p>{{ .description }}</p>
+              </div>
+              <div class="row mb-1">
+                {{ range .partners }}
+                  <div class="md:col-3 text-center sm:col-12 mb-6" style="max-width: 300px;">
+                    <a href="{{ .website_url }}" style="display: flex; align-items: center; justify-content: center; height: 100px;">
+                      <img src="{{ .image }}" alt="{{ .name }}" style="max-height: 100px;">
+                    </a>
+                  </div>
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
