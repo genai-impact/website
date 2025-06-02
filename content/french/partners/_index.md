@@ -12,6 +12,9 @@ partners_sections:
       - name: "Resilio"
         image: "https://www.resilio-solutions.com/files/others/resilio-header.svg"
         website_url: "https://www.resilio-solutions.com/en"
+      - name: "Terra Cognita"
+        image: "https://cdn.prod.website-files.com/67c18ebdce1f572be162abcd/67c1d324695f826cfc71a7e4_TerraCognita_logo-p-500.png"
+        website_url: "https://www.terra-cognita.ai/"
 
   - title: "Partenaires techniques"
     description: "Organisations qui nous aident à construire de meilleures méthodologies et outils."
@@ -34,5 +37,5 @@ partners_sections:
         website_url: "https://boavizta.org/en"
       - name: "Planet Tech'Care"
         image: "https://planet-techcare.green/wp-content/uploads/2020/09/logo.svg"
-        website_url: "https://planet-techcare.green/en/partenaires/"
+        website_url: "https://planet-techcare.green/"
 ---
