@@ -13,7 +13,7 @@
                 {{ range .partners }}
                   <div class="md:col-3 text-center sm:col-12 mb-6" style="max-width: 300px;">
                     <a href="{{ .website_url }}" style="display: flex; align-items: center; justify-content: center; height: 100px;">
-                      <img src="{{ .image }}" alt="{{ .name }}" style="max-height: 100px;">
+                      {{ partial "image" (dict "Src" .image "Alt" .name "Style" "max-height: 100px;") }}
                     </a>
                   </div>
                 {{ end }}
