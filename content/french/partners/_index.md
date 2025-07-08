@@ -7,7 +7,7 @@ draft: false
 
 partners_sections:
   - title: "Sponsors"
-    description: "Organisations qui soutiennent notre développement à long terme."
+    description: "Nous remercions chaleureusement les organisations qui soutiennent notre développement sur le long terme. Grâce à leurs contributions financières, nos sponsors jouent un rôle essentiel en assurant la pérennité de notre action et en amplifiant notre impact."
     partners:
       - name: "Resilio"
         image: "/images/sponsors/resilio.png"
@@ -20,14 +20,14 @@ partners_sections:
         website_url: "https://sopht.com/en/"
 
   - title: "Partenaires techniques"
-    description: "Organisations qui nous aident à construire de meilleures méthodologies et outils."
+    description: "Dans le cadre d’initiatives de co-développement, ces organisations nous aident à concevoir et à développer des méthodologies et des outils open source. Ensemble, nous créons des solutions déployables à grande échelle au service de l’intérêt général."
     partners:
       - name: "Afoodi"
         image: "/images/sponsors/afoodi.png"
         website_url: "https://afoodi.io/"
 
   - title: "Partenaires à but non lucratif"
-    description: "Organisations à but non lucratif de l'écosystème qui nous soutiennent."
+    description: "Ces organisations à but non lucratif, membres de notre écosystème, soutiennent notre travail par la collaboration, le partage de connaissances, le développement de réseaux et le plaidoyer."
     partners:
       - name: "Data For Good"
         image: "/images/sponsors/data_for_good.png"
