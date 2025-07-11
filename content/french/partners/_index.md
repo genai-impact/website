@@ -18,6 +18,9 @@ partners_sections:
       - name: "Sopht"
         image: "/images/sponsors/sopht.png"
         website_url: "https://sopht.com/en/"
+      - name: "Avanade"
+        image: "/images/sponsors/avanade.png"
+        website_url: "https://www.avanade.com/"
 
   - title: "Partenaires techniques"
     description: "Dans le cadre d’initiatives de co-développement, ces organisations nous aident à concevoir et à développer des méthodologies et des outils open source. Ensemble, nous créons des solutions déployables à grande échelle au service de l’intérêt général."
@@ -25,6 +28,13 @@ partners_sections:
       - name: "Afoodi"
         image: "/images/sponsors/afoodi.png"
         website_url: "https://afoodi.io/"
+
+  - title: "Bienfaiteurs"
+    description: "Nous sommes honorés de recevoir le soutien d'organisations publiques qui reconnaissent l'importance de notre mission. Leurs contributions sont cruciales pour nous aider à atteindre nos objectifs et à renforcer notre impact sur la société."
+    partners:
+      - name: "Ministère de la Culture"
+        image: "/images/sponsors/ministere_culture.png"
+        website_url: "https://www.culture.gouv.fr/"
 
   - title: "Partenaires à but non lucratif"
     description: "Ces organisations à but non lucratif, membres de notre écosystème, soutiennent notre travail par la collaboration, le partage de connaissances, le développement de réseaux et le plaidoyer."

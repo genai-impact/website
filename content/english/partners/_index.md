@@ -18,6 +18,9 @@ partners_sections:
       - name: "Sopht"
         image: "/images/sponsors/sopht.png"
         website_url: "https://sopht.com/en/"
+      - name: "Avanade"
+        image: "/images/sponsors/avanade.png"
+        website_url: "https://www.avanade.com/"
 
   - title: "Technical partners"
     description: "Through co-development initiatives, these organizations help us design and build open-source methodologies and tools. Together, we’re creating scalable solutions that serve the public good."
@@ -25,6 +28,13 @@ partners_sections:
       - name: "Afoodi"
         image: "/images/sponsors/afoodi.png"
         website_url: "https://afoodi.io/"
+
+  - title: "Benefactors"
+    description: "We are honored to receive support from public organizations that recognize the importance of our mission. Their contributions are crucial in helping us achieve our goals and further our impact on society."
+    partners:
+      - name: "French Ministry of Culture"
+        image: "/images/sponsors/ministere_culture.png"
+        website_url: "https://www.culture.gouv.fr/"
 
   - title: "Non-profit partners"
     description: "Fellow non-profit organizations from our ecosystem who support our work through collaboration, knowledge sharing, network building, and advocacy."
