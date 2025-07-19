@@ -5,7 +5,7 @@ description: "About the GenAI Impact non-profit."
 image: "/images/avatar.png"
 draft: false
 
-people_title: Our Team
+people_title: Our Board
 people:
   - name: Samuel Rincé
     role: President & Co-Founder
@@ -27,9 +27,7 @@ people:
     role: Administrator
     image: "/images/people/jacopo_chevallard.jpg"
     link: https://www.linkedin.com/in/jacopo-chevallard/
-people_list_text: View all our members
-people_list_url: https://genai-impact.notion.site/Trombinoscope-5bf3d5c819c643b498b3b363223f7add
-
+people_list_text: GenAI Impact has about 20 active members, all members are volunteers.
 ---
 
 

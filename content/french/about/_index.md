@@ -5,7 +5,7 @@ description: "À propos de GenAI Impact l'association."
 image: "/images/avatar.png"
 draft: false
 
-people_title: Notre équipe
+people_title: Notre Conseil d'Administration
 people:
   - name: Samuel Rincé
     role: President & Co-Fondateur
@@ -27,8 +27,7 @@ people:
     role: Administrateur
     image: "/images/people/jacopo_chevallard.jpg"
     link: https://www.linkedin.com/in/jacopo-chevallard/
-people_list_text: Voir tous les membres
-people_list_url: https://genai-impact.notion.site/Trombinoscope-5bf3d5c819c643b498b3b363223f7add
+people_list_text: "GenAI Impact compte une vingtaine de membres actifs, tous bénévoles."
 ---
 
 
