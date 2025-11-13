@@ -2,7 +2,7 @@
 title: "Major improvements in our methodology"
 meta_title: ""
 description: ""
-date: 2025-11-12T08:00:00Z
+date: 2025-11-13T08:00:00Z
 image: "/images/content/post_3/plot.png"
 categories: ["Environmental Impacts", "GenAI Impact Development"]
 author: "GenAI Impact"
