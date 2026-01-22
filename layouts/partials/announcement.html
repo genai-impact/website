@@ -1,0 +1,38 @@
+{{ if site.Params.announcement.enable }}
+  <div id="announcement" class="announcement">
+    {{ site.Params.announcement.content | markdownify }}
+  </div>
+
+  <style>
+    .announcement {
+      position: relative;
+      z-index: 999;
+      padding: 1rem;
+      background-color: #649618;
+      color: #ffffff;
+      text-align: center;
+      font-size: 1rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .announcement strong {
+      font-weight: 600;
+    }
+
+    .announcement a {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
+    .announcement a:hover {
+      opacity: 0.9;
+    }
+
+    @media (max-width: 768px) {
+      .announcement {
+        font-size: 0.9rem;
+        padding: 0.75rem;
+      }
+    }
+  </style>
+{{ end }}
