@@ -50,7 +50,7 @@ show_categories = true
 [announcement]
 enable = true
 expire_days = 365
-content = "📢 **[EcoLogits is joining CodeCarbon non-profit](https://www.linkedin.com/posts/genai-impact_grande-nouvelle-pour-un-num%C3%A9rique-plus-activity-7420053917440376832-QBEw)**"
+content = "📢 **EcoLogits and CodeCarbon are joining forces, read our [announcement](https://ecologits.ai/latests/blog/2026/01/22/joining-codecarbon/)**"
 
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo

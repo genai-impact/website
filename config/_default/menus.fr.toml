@@ -13,7 +13,7 @@ weight = 2
 
 [[main]]
 name = "Blog"
-pageRef = "/blog"
+url = "https://ecologits.ai/latest/blog/"
 weight = 3
 
 # [[main]]
@@ -25,22 +25,6 @@ weight = 3
 # name = "Methologies"
 # pageRef = "/"
 # weight = 1
-
-[[main]]
-weight = 5
-name = "Outils"
-
-[[main]]
-parent = "Outils"
-name = "EcoLogits"
-url = "https://github.com/genai-impact/ecologits"
-weight = 1
-
-[[main]]
-parent = "Outils"
-name = "Calculator"
-url = "https://huggingface.co/spaces/genai-impact/ecologits-calculator"
-weight = 2
 
 [[main]]
 name = "Partenaires"
