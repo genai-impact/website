@@ -29,28 +29,27 @@
       {{ partialCached "gtm-noscript.html" . }}
     {{ else }}
       {{ partial "preloader.html" . }}
-
-
-      <!-- tailwind size indicator -->
-      {{ partial "components/tw-size-indicator.html" . }}
     {{ end }}
 
 
-    <!-- announcement -->
-    {{ partialCached "announcement.html" . }}
+    {{ if not .IsHome }}
+      <!-- announcement -->
+      {{ partialCached "announcement.html" . }}
 
-
-    <!-- header (don't cache it) -->
-    {{ partial "essentials/header.html" . }}
-    {{ partial "search-modal.html" (dict "Context" . ) }}
+      <!-- header (don't cache it) -->
+      {{ partial "essentials/header.html" . }}
+      {{ partial "search-modal.html" (dict "Context" . ) }}
+    {{ end }}
 
 
     <main>
       {{ block "main" . }}{{ end }}
     </main>
 
-    <!-- footer -->
-    {{ partial "essentials/footer.html" . }}
+    {{ if not .IsHome }}
+      <!-- footer -->
+      {{ partial "essentials/footer.html" . }}
+    {{ end }}
 
 
     <!-- script (always cache it) -->

@@ -1,63 +1,40 @@
 ---
-# Banner
-banner:
-  title: "Évaluer les impacts environnementaux de <br>l'IA générative"
-  content: "Découvrez nos méthodologies d'évaluation des impacts et nos outils open source pour les développeurs."
-  image: "/images/banner.png"
-  button:
-    enable: true
-    label: "Découvrez EcoLogits"
-    link: "https://ecologits.ai/"
+title: "GenAI Impact has joined CodeCarbon"
+meta_title: "GenAI Impact has joined CodeCarbon"
+description: "GenAI Impact et ses projets EcoLogits poursuivent leurs travaux au sein de CodeCarbon."
 
-# Features
-features:
-  - title: "Nos activités"
-    image: "/images/service-1.png"
-    content: "Nous nous consacrons à comprendre et à réduire les impacts environnementaux de l'intelligence artificielle générative à travers des recherches rigoureuses, des outils innovants et l'engagement communautaire."
-    bulletpoints:
-      - "**Méthodologies avancées** inspirées de l'Analyse de Cycle de Vie (ACV)."
-      - "**Outils open-source** pour un usage personnel et commercial."
-      - "Sensibilisation aux impacts environnementaux de l'IA générative."
-      - "Assistance aux développeurs et aux organisations partout dans le monde."
-    button:
-      enable: false
-      label: ""
-      link: "#"
+announcement:
+  title: "GenAI Impact has joined CodeCarbon"
+  english: "The GenAI Impact non-profit has merged with CodeCarbon. EcoLogits and all our projects dedicated to understanding and reducing the environmental impacts of generative AI are now continuing within the CodeCarbon community."
+  french: "L’association GenAI Impact a fusionné avec CodeCarbon. EcoLogits et tous nos projets consacrés à la compréhension et à la réduction des impacts environnementaux de l’IA générative se poursuivent désormais au sein de la communauté CodeCarbon."
+  announcement_button: "Read the announcement"
 
-  - title: "Pourquoi c'est important"
-    image: "/images/service-2.png"
-    content: "L'évolution rapide de l'intelligence artificielle générative transforme de nombreuses industries et aspects de notre quotidien. Si ces avancées offrent certains avantages, elles posent également d'importants défis environnementaux qu'il ne faut pas négliger. Chez GenAI Impact, nous abordons ces problèmes cruciaux pour plusieurs raisons clés :"
-    bulletpoints:
-      - "**Responsabilité environnementale** : Les modèles GenAI consomment beaucoup d'énergie, lors de l'entraînement et de l'inférence, contribuant aux émissions de gaz à effet de serre."
-      - "**Efficacité des ressources** : Au-delà de la consommation énergie, les systèmes d'IA générative affectent également l'utilisation de nombreuses ressources, y compris l'eau et les matériaux."
-      - "**Viabilité future** : Gestion des impacts indirects et des effets rebond de l'implantation mondiale de l'IA générative."
-    button:
-      enable: false
-      label: ""
-      link: ""
-
-  - title: "Découvrez EcoLogits"
-    image: "/images/service-3.png"
-    content: "EcoLogits suit la consommation d'énergie et l'empreinte environnementale de l'utilisation des modèles d'IA générative via des API. Voici quelques-unes de ses principales fonctionnalités :"
-    bulletpoints:
-      - "**Impacts environnementaux** et consommation d'énergie des LLMs lors de l'inférence."
-      - "Compatible avec les principaux fournisseurs : **OpenAI**, **Anthropic**, **Mistral AI** et d'autres."
-      - "**Licence open-source** pour usage personnel et commercial."
-    button:
-      enable: true
-      label: "Découvrir sur GitHub"
-      link: "https://github.com/genai-impact/ecologits"
-
-  - title: "EcoLogits Calculator"
-    image: "/images/service-4.png"
-    content: "EcoLogits Calculator est une application web pédagogique conçue pour estimer les impacts environnementaux des exemples de prompts LLM pour de nombreux modèles et fournisseurs différents."
-    bulletpoints:
-      - "Choisissez votre **fournisseur**, **modèle**, **prompt** et obtenez les impacts environnementaux."
-      - "Apprenez-en davantage sur les **équivalents en énergie ou en émissions de GES** de votre utilisation de LLM."
-      - "Allez plus loin dans la modélisation et adaptez-la à votre cas d'usage avec l'onglet **mode expert**."
-      - "Basé sur la librairie Python open-source **EcoLogits**."
-    button:
-      enable: true
-      label: "Découvrir le calculateur"
-      link: "https://huggingface.co/spaces/genai-impact/ecologits-calculator"
+partners:
+  - name: "Resilio"
+    image: "/images/sponsors/resilio.png"
+    website_url: "https://www.resilio-solutions.com/en"
+  - name: "Terra Cognita"
+    image: "/images/sponsors/terra_cognita.png"
+    website_url: "https://www.terra-cognita.ai/en"
+  - name: "Sopht"
+    image: "/images/sponsors/sopht.png"
+    website_url: "https://sopht.com/en/"
+  - name: "Avanade"
+    image: "/images/sponsors/avanade.png"
+    website_url: "https://www.avanade.com/"
+  - name: "Afoodi"
+    image: "/images/sponsors/afoodi.png"
+    website_url: "https://afoodi.io/"
+  - name: "French Ministry of Culture"
+    image: "/images/sponsors/ministere_culture.png"
+    website_url: "https://www.culture.gouv.fr/"
+  - name: "Data For Good"
+    image: "/images/sponsors/data_for_good.png"
+    website_url: "https://dataforgood.fr/"
+  - name: "Boavizta"
+    image: "/images/sponsors/boavizta.png"
+    website_url: "https://boavizta.org/en"
+  - name: "Planet Tech'Care"
+    image: "/images/sponsors/planet_tech_care.png"
+    website_url: "https://planet-techcare.green/en/"
 ---

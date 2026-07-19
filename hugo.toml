@@ -14,6 +14,9 @@ summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
 # disable language
 disableLanguages = [
 ] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
+# Publish only the merger announcement homepages. Legacy content remains in
+# the repository but is excluded from the generated website.
+disableKinds = ["page", "section", "taxonomy", "term", "RSS"]
 hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
 # default language
 defaultContentLanguage = 'en'
@@ -72,7 +75,7 @@ target = '$1'
 
 ############################# Outputs ############################
 [outputs]
-home = ["HTML", "RSS", "WebAppManifest", "SearchIndex"]
+home = ["HTML", "WebAppManifest"]
 
 ############################# Imaging ############################
 [imaging]

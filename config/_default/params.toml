@@ -26,7 +26,7 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = "Copyright © 2024 GenAI Impact<br>Template by [Zeon Studio](https://zeon.studio) - Illustrations by [Storyset](https://storyset.com/)"
+copyright = "GenAI Impact · 2024–2026"
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
@@ -37,7 +37,7 @@ preloader = "" # use jpg, png, svg or gif format.
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
 [search]
-enable = true
+enable = false
 primary_color = "#121212"
 include_sections = ["blog"]
 show_image = true
@@ -48,7 +48,7 @@ show_categories = true
 # announcement
 # announcement module: https://github.com/gethugothemes/hugo-modules/tree/master/components/announcement
 [announcement]
-enable = true
+enable = false
 expire_days = 365
 content = "📢 **EcoLogits and CodeCarbon are joining forces, read our [announcement](https://ecologits.ai/latest/blog/2026/01/22/joining-codecarbon/)**"
 
@@ -56,7 +56,7 @@ content = "📢 **EcoLogits and CodeCarbon are joining forces, read our [announc
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
 keywords = ["GenAI", "Environmental Impacts"]
-description = "GenAI Impact"
+description = "GenAI Impact has merged with CodeCarbon. EcoLogits and our projects now continue within the CodeCarbon community."
 author = "GenAI Impact"
 image = ""
 

@@ -1,63 +1,40 @@
 ---
-# Banner
-banner:
-  title: "Understand Generative AI Environmental Footprint"
-  content: "Discover our impact assessment methodologies and open-source tools for developers."
-  image: "/images/banner.png"
-  button:
-    enable: true
-    label: "Discover EcoLogits"
-    link: "https://ecologits.ai/"
+title: "GenAI Impact has joined CodeCarbon"
+meta_title: "GenAI Impact has joined CodeCarbon"
+description: "GenAI Impact and its EcoLogits projects are continuing their work within CodeCarbon."
 
-# Features
-features:
-  - title: "What we do"
-    image: "/images/service-1.png"
-    content: "We are dedicated to understanding and mitigating the **environmental impacts of generative AI** through rigorous research, innovative tools, and community engagement."
-    bulletpoints:
-      - "**Advanced Methodologies** inspired by Life-Cycle Assessment (LCA)."
-      - "**Open-Source Tools** free for personal and commercial use."
-      - "Raising awareness on GenAI environmental impacts."
-      - "Helping developers and organizations arround the globe."
-    button:
-      enable: false
-      label: ""
-      link: "#"
+announcement:
+  title: "GenAI Impact has joined CodeCarbon"
+  english: "The GenAI Impact non-profit has merged with CodeCarbon. EcoLogits and all our projects dedicated to understanding and reducing the environmental impacts of generative AI are now continuing within the CodeCarbon community."
+  french: "L’association GenAI Impact a fusionné avec CodeCarbon. EcoLogits et tous nos projets consacrés à la compréhension et à la réduction des impacts environnementaux de l’IA générative se poursuivent désormais au sein de la communauté CodeCarbon."
+  announcement_button: "Read the announcement"
 
-  - title: "Why It Matters"
-    image: "/images/service-2.png"
-    content: "The rapid evolution of generative AI is reshaping numerous industries and aspects of our daily lives. While these advancements offer some benefits, they also pose substantial environmental challenges that cannot be overlooked. At GenAI Impact, we address these critical issues head-on for several key reasons:"
-    bulletpoints:
-      - "**Environmental Responsibility:** GenAI models consumes considerable energy, during training and inference, contributing to GHG emissions."
-      - "**Resource Efficiency:** Beyond energy, generative AI systems impacts resource usage including water and materials."
-      - "**Future Viability**: Addressing indirect impacts and rebound effects of global generative AI deployment."
-    button:
-      enable: false
-      label: ""
-      link: ""
-
-  - title: "Discover EcoLogits"
-    image: "/images/service-3.png"
-    content: "EcoLogits tracks the energy consumption and environmental footprint of using generative AI models through APIs. Some of the key features are:"
-    bulletpoints:
-      - "**Environmental impacts** and energy consumption of LLMs at inference."
-      - "Works with major providers: **OpenAI**, **Anthropic**, **Mistral AI** and more."
-      - "**Open-Source licence** for personal and commercial use."
-    button:
-      enable: true
-      label: "Get Started Now"
-      link: "https://github.com/genai-impact/ecologits"
-  
-  - title: "EcoLogits Calculator"
-    image: "/images/service-4.png"
-    content: "EcoLogits Calculator is pedagogical web app to estimate the environmental impacts of example LLM prompts for many different models and providers."
-    bulletpoints:
-      - "Choose your **provider**, **model**, **prompt** and get the environmental impacts."
-      - "Learn about **energy or GHG emissions equivalents** of your LLM usage."
-      - "Deep dive into the modeling and better fit to your use case in the **expert mode**."
-      - "Based on the open-source **EcoLogits** python library."
-    button:
-      enable: true
-      label: "Try It Now"
-      link: "https://huggingface.co/spaces/genai-impact/ecologits-calculator"
+partners:
+  - name: "Resilio"
+    image: "/images/sponsors/resilio.png"
+    website_url: "https://www.resilio-solutions.com/en"
+  - name: "Terra Cognita"
+    image: "/images/sponsors/terra_cognita.png"
+    website_url: "https://www.terra-cognita.ai/en"
+  - name: "Sopht"
+    image: "/images/sponsors/sopht.png"
+    website_url: "https://sopht.com/en/"
+  - name: "Avanade"
+    image: "/images/sponsors/avanade.png"
+    website_url: "https://www.avanade.com/"
+  - name: "Afoodi"
+    image: "/images/sponsors/afoodi.png"
+    website_url: "https://afoodi.io/"
+  - name: "French Ministry of Culture"
+    image: "/images/sponsors/ministere_culture.png"
+    website_url: "https://www.culture.gouv.fr/"
+  - name: "Data For Good"
+    image: "/images/sponsors/data_for_good.png"
+    website_url: "https://dataforgood.fr/"
+  - name: "Boavizta"
+    image: "/images/sponsors/boavizta.png"
+    website_url: "https://boavizta.org/en"
+  - name: "Planet Tech'Care"
+    image: "/images/sponsors/planet_tech_care.png"
+    website_url: "https://planet-techcare.green/en/"
 ---
